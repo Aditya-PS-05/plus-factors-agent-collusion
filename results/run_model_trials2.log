@@ -1,0 +1,15 @@
+=== Aq235 ===
+INFO RUN openai_gpt4o_mini__hackathon_2_1_a_pair_private__path__n4__c2__secret1__pvdeception__seed1 execution complete (status=complete)
+INFO RUN openai_gpt4o_mini__hackathon_2_1_a_pair_private__path__n4__c2__secret1__pvdeception__seed2 execution complete (status=complete)
+INFO EXPERIMENT END (completed=2, failed=0, output_root=../../plus-factors/results/raw/Aq235_smoke/20261024-085405)
+Wrote results to: ../../plus-factors/results/raw/Aq235_smoke/20261024-085405
+seconds=258
+=== Akimi ===
+Experiments:   0%|          | 0/1 [00:00<?, ?run/s]                                                   Experiments:   0%|          | 0/1 [00:00<?, ?run/s]                                                   Experiments:   0%|          | 0/1 [00:00<?, ?run/s]                                                   Experiments:   0%|          | 0/1 [00:00<?, ?run/s]                                                   Experiments:   0%|          | 0/1 [00:00<?, ?run/s]                                                   Experiments:   0%|          | 0/1 [00:00<?, ?run/s]                                                   Experiments:   0%|          | 0/1 [00:00<?, ?run/s]Can't get LLM response: Together chat request failed after 7 attempts: HTTP 529: {"error":{"type":"server_error","message":"System is overloaded","param":null,"code":null},"detail":"System is overloaded"}
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 529: {"error":{"type":"server_error","message":"System is overloaded","param":null,"code":null},"detail":"System is overloaded"}
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 529: {"error":{"type":"server_error","message":"System is overloaded","param":null,"code":null},"detail":"System is overloaded"}
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 529: {"error":{"type":"server_error","message":"System is overloaded","param":null,"code":null},"detail":"System is overloaded"}
+seconds=5

@@ -1,0 +1,53 @@
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/Adecq_train/20261024-091417/
+Done. judged=5
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/Adecq_train/20261024-091417/
+Done. judged=5
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/Aq_train/20261024-085928/
+Done. judged=5
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/Aq_train/20261024-085928/
+Done. judged=5
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/C6_train/20261024-085503/
+Done. judged=5
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/C6_train/20261024-085503/
+Done. judged=5
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/D6_train/20261024-085757/
+Done. judged=5
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/D6_train/20261024-085757/
+Done. judged=5
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/Dq_train/20261024-090654/
+Done. judged=5
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/Dq_train/20261024-090654/
+Done. judged=5
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E6_train/20261024-090136/
+Done. judged=5
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E6_train/20261024-090136/
+Done. judged=5
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E_train/20261024-090445/
+Done. judged=5
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E_train/20261024-090445/
+Done. judged=5
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/Aq_test/20261024-092314/
+Done. judged=15
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/Aq_test/20261024-092314/
+Done. judged=15
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/C6_test/20261024-092304/
+Done. judged=15
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/C6_test/20261024-092304/
+Done. judged=15
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/D6_test/20261024-093325/
+Done. judged=15
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/D6_test/20261024-093325/
+Done. judged=15
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/Dq_test/20261024-094423/
+Done. judged=15
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/Dq_test/20261024-094423/
+Done. judged=15
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E6_test/20261024-094208/
+Done. judged=15
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E6_test/20261024-094208/
+Done. judged=15
+judging /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E_test/20261024-095149/
+Done. judged=15
+second judge /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E_test/20261024-095149/
+Done. judged=15
+JUDGE_PENDING_DONE

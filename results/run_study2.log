@@ -1,0 +1,37 @@
+=== A6 train ===
+INFO EXPERIMENT END (completed=5, failed=0, output_root=../../plus-factors/results/raw/A6_train/20261024-084958)
+Wrote results to: ../../plus-factors/results/raw/A6_train/20261024-084958
+=== B6 train ===
+INFO EXPERIMENT END (completed=5, failed=0, output_root=../../plus-factors/results/raw/B6_train/20261024-085218)
+Wrote results to: ../../plus-factors/results/raw/B6_train/20261024-085218
+=== C6 train ===
+INFO EXPERIMENT END (completed=5, failed=0, output_root=../../plus-factors/results/raw/C6_train/20261024-085503)
+Wrote results to: ../../plus-factors/results/raw/C6_train/20261024-085503
+=== D6 train ===
+INFO EXPERIMENT END (completed=5, failed=0, output_root=../../plus-factors/results/raw/D6_train/20261024-085757)
+Wrote results to: ../../plus-factors/results/raw/D6_train/20261024-085757
+=== E6 train ===
+INFO EXPERIMENT END (completed=5, failed=0, output_root=../../plus-factors/results/raw/E6_train/20261024-090136)
+Wrote results to: ../../plus-factors/results/raw/E6_train/20261024-090136
+=== E train ===
+INFO EXPERIMENT END (completed=5, failed=0, output_root=../../plus-factors/results/raw/E_train/20261024-090445)
+Wrote results to: ../../plus-factors/results/raw/E_train/20261024-090445
+=== A6 test ===
+INFO EXPERIMENT END (completed=15, failed=0, output_root=../../plus-factors/results/raw/A6_test/20261024-090710)
+Wrote results to: ../../plus-factors/results/raw/A6_test/20261024-090710
+=== B6 test ===
+INFO EXPERIMENT END (completed=15, failed=0, output_root=../../plus-factors/results/raw/B6_test/20261024-091448)
+Wrote results to: ../../plus-factors/results/raw/B6_test/20261024-091448
+=== C6 test ===
+INFO EXPERIMENT END (completed=15, failed=0, output_root=../../plus-factors/results/raw/C6_test/20261024-092304)
+Wrote results to: ../../plus-factors/results/raw/C6_test/20261024-092304
+=== D6 test ===
+INFO EXPERIMENT END (completed=15, failed=0, output_root=../../plus-factors/results/raw/D6_test/20261024-093325)
+Wrote results to: ../../plus-factors/results/raw/D6_test/20261024-093325
+=== E6 test ===
+INFO EXPERIMENT END (completed=15, failed=0, output_root=../../plus-factors/results/raw/E6_test/20261024-094208)
+Wrote results to: ../../plus-factors/results/raw/E6_test/20261024-094208
+=== E test ===
+INFO EXPERIMENT END (completed=15, failed=0, output_root=../../plus-factors/results/raw/E_test/20261024-095149)
+Wrote results to: ../../plus-factors/results/raw/E_test/20261024-095149
+exit=0

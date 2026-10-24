@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+results/raw/
+.omc/
+report/_full.md
+report/report.pdf

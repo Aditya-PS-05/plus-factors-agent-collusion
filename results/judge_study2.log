@@ -1,0 +1,119 @@
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/A6_train/20261024-084958/
+Done. judged=5
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/A6_train/20261024-084958/
+Done. judged=5
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/A6_test/20261024-090710/
+Done. judged=15
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/A6_test/20261024-090710/
+Done. judged=15
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/B6_train/20261024-085218/
+Done. judged=5
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/B6_train/20261024-085218/
+Done. judged=5
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/B6_test/20261024-091448/
+Done. judged=15
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/B6_test/20261024-091448/
+Done. judged=15
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/C6_train/20261024-085503/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/C6_train/20261024-085503/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/C6_test/20261024-092304/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/C6_test/20261024-092304/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+mv: cannot stat './judge_gemma': No such file or directory
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/D6_train/20261024-085757/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/D6_train/20261024-085757/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+mv: cannot stat './judge_gemma': No such file or directory
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/D6_test/20261024-093325/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/D6_test/20261024-093325/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+mv: cannot stat './judge_gemma': No such file or directory
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E6_train/20261024-090136/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E6_train/20261024-090136/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+mv: cannot stat './judge_gemma': No such file or directory
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E6_test/20261024-094208/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E6_test/20261024-094208/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+mv: cannot stat './judge_gemma': No such file or directory
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E_train/20261024-090445/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E_train/20261024-090445/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+mv: cannot stat './judge_gemma': No such file or directory
+gemma /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E_test/20261024-095149/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+qwen235 /home/aditya/my-work/AI/challenges/collusion-sprint/plus-factors/results/raw/E_test/20261024-095149/
+    raise RuntimeError(f"Together chat request failed after {max_retries + 1} attempts: {last_error}")
+RuntimeError: Together chat request failed after 7 attempts: HTTP 402: {"error":{"type":"insufficient_quota","message":"Payment Required: You have exhausted your budget. Please add funds to continue using the API.","param":null,"code":"credit_balance_exhausted"},"detail":"Invalid request. Please check the parameters and try again. Details: Payment Required: You have exhausted your budget. Please add funds to continue using the API."}
+    raise RuntimeError(
+RuntimeError: Judge request failed after 3 attempt(s).
+mv: cannot stat '': No such file or directory
+mv: cannot stat './judge_gemma': No such file or directory
+exit=1
