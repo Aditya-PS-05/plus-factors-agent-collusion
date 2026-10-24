@@ -50,7 +50,7 @@ for spec in "prereg|--include A B C D --agreement A" "ext_A_Adec|--include A Ade
 done
 uv run python "$HERE/analysis/tables.py" "$HERE/results/measures.csv" --out "$HERE/results" --conds A Adec B Bdec C D --baseline D
 uv run python "$HERE/analysis/figures.py" "$HERE/results/measures.csv" --out "$HERE/results/figures" --conds A Adec B Bdec C D --baseline D
-uv run python "$HERE/analysis/intent_language.py" "$HERE/results/measures.csv" --conds A Adec B Bdec C D E A6 B6 E6 Aq Adecq Dq > "$HERE/results/intent_language.md" || true
+uv run python "$HERE/analysis/intent_language.py" "$HERE/results/measures.csv" --conds A Adec B Bdec C D E A6 B6 E6 Aq Adecq Aaudq Dq > "$HERE/results/intent_language.md" || true
 
 # ---------------- Study 2: contest setting (six agents) ----------------
 S2="A6 B6 C6 D6 E6"
@@ -79,6 +79,13 @@ if ls "$HERE"/results/raw/Aq_train/*/runs >/dev/null 2>&1; then
   echo; echo "######## Study 3 / Adecq alone vs Dq and Aq alone vs Dq"
   uv run python "$HERE/analysis/evaluate.py" "$HERE/results/measures.csv" --include Adecq Dq --agreement Adecq --baseline Dq --factors $ALL --out "$HERE/results/s3_evaluation_Adecq_vs_Dq.md" | sed -n '/Held-out/,$p'
   uv run python "$HERE/analysis/evaluate.py" "$HERE/results/measures.csv" --include Aq Dq --agreement Aq --baseline Dq --factors $ALL --out "$HERE/results/s3_evaluation_Aq_vs_Dq.md" | sed -n '/Held-out/,$p'
+  uv run python "$HERE/analysis/fig_study3.py" "$HERE/results/measures.csv" --out "$HERE/results/figures" --conds Aq Adecq Aaudq Dq --baseline Dq
+  if ls "$HERE"/results/raw/Aaudq_train/*/runs >/dev/null 2>&1; then
+    echo; echo "################ STUDY 4 PRE-DECLARED: Adecq-vs-Dq rules applied unchanged to Aaudq held-out seeds"
+    uv run python "$HERE/analysis/evaluate.py" "$HERE/results/measures.csv" --include Adecq Dq --agreement Adecq --baseline Dq --factors $ALL --apply-to Aaudq --out "$HERE/results/s4_evaluation_transfer.md" | sed -n '/Transfer/,$p'
+    mkdir -p "$HERE/results/study4"
+    uv run python "$HERE/analysis/tables.py" "$HERE/results/measures.csv" --out "$HERE/results/study4" --conds Adecq Aaudq Dq --baseline Dq
+  fi
   mkdir -p "$HERE/results/study3"
   uv run python "$HERE/analysis/tables.py" "$HERE/results/measures.csv" --out "$HERE/results/study3" --conds Aq Adecq Dq --baseline Dq
   uv run python "$HERE/analysis/figures.py" "$HERE/results/measures.csv" --out "$HERE/results/figures/study3" --conds Aq Adecq Dq --baseline Dq

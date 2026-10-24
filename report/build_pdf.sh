@@ -17,10 +17,13 @@ s = s.replace("[TABLE2]", tab2.group(2).rstrip() + "\n\n" + tab2.group(1) + "\n"
 if Path("appendix_transcripts.md").exists():
     t = Path("appendix_transcripts.md").read_text().strip() + "\n\n"
     s = s.replace("## Appendix D:", t + "## Appendix D:", 1)
+# keep floats inside their sections (placeins); raw LaTeX passes through pandoc
+for h in ["## 4. Results", "## 5. Discussion", "## 6. Limitations", "## References", "## Appendix B:", "## Appendix C:", "## Appendix D:"]:
+    s = s.replace(h, "\\FloatBarrier\n\n" + h, 1)
 Path("_full.md").write_text(s)
 PY
 pandoc _full.md -o report.pdf --pdf-engine=xelatex \
   -V geometry:margin=1.9cm -V fontsize=10pt -V mainfont="DejaVu Serif" -V monofont="DejaVu Sans Mono" \
-  -V colorlinks=true -V linkcolor=blue -V urlcolor=blue --resource-path=.:../results/figures \
+  -V header-includes="\\usepackage{placeins}" -V colorlinks=true -V linkcolor=blue -V urlcolor=blue --resource-path=.:../results/figures \
   --metadata title="" 2>&1 | grep -v "^\[WARNING\] Missing character" || true
 pdfinfo report.pdf | grep -E "Pages|File size" || true

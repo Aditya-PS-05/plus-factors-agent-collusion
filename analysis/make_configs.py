@@ -44,6 +44,8 @@ def main() -> None:
     ap.add_argument("--only", nargs="*", default=None, help="subset of condition codes")
     ap.add_argument("--code-suffix", default="", help="appended to the condition code, e.g. dec -> Adec")
     ap.add_argument("--num-agents", type=int, default=None, help="override communication_network.num_agents (Study 2 uses 6)")
+    ap.add_argument("--override-text", default=None,
+                    help="text for a custom prompt variant named by --variant (uses experiment.collusion.prompt_variant_overrides)")
     args = ap.parse_args()
 
     out_cfg_dir = PROJECT / "configs"
@@ -77,6 +79,8 @@ def main() -> None:
             for sw in cfg["experiment"]["sweeps"]:
                 if sw.get("prompt_variants") != ["control"]:
                     sw["prompt_variants"] = [args.variant]
+            if args.override_text:
+                cfg["experiment"].setdefault("collusion", {})["prompt_variant_overrides"] = {args.variant: args.override_text}
         rel_out = Path("..") / ".." / "plus-factors" / "results" / "raw" / f"{code}{suffix}"
         cfg["experiment"]["output_dir"] = str(rel_out)
         cfg["experiment"]["tag"] = f"pf_{code}{suffix}"

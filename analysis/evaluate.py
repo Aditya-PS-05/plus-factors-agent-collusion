@@ -126,10 +126,14 @@ def main() -> None:
     ap.add_argument("--exclude", nargs="*", default=[], help="condition codes to drop entirely")
     ap.add_argument("--include", nargs="*", default=None, help="keep only these condition codes")
     ap.add_argument("--baseline", default="D", help="condition used as the matched baseline for Hrel")
+    ap.add_argument("--apply-to", nargs="*", default=[],
+                    help="condition codes NOT used for fitting; the fitted rules are applied unchanged to their held-out seeds (Study 4 transfer)")
     args = ap.parse_args()
     global AGREEMENT, CONFOUNDS, BASELINE
     BASELINE = args.baseline
-    rows = [r for r in load(args.measures) if r["condition"] not in set(args.exclude)]
+    all_rows = load(args.measures)
+    apply_rows = [r for r in all_rows if r["condition"] in set(args.apply_to) and r["split"] == "test"]
+    rows = [r for r in all_rows if r["condition"] not in set(args.exclude) and r["condition"] not in set(args.apply_to)]
     if args.include:
         rows = [r for r in rows if r["condition"] in set(args.include)]
     AGREEMENT = set(args.agreement)
@@ -230,6 +234,22 @@ def main() -> None:
     else:
         P("| (no test runs yet) |" + " |" * (2 + len(CONFOUNDS)))
     P("")
+    if apply_rows:
+        bapply = binarise(apply_rows, thresholds)
+        conds_a = sorted({r["condition"] for r in bapply})
+        P(f"## Transfer: rules fitted above applied unchanged to held-out seeds of {conds_a}\n")
+        P("| Rule | TPR on agreement (above) | " + " | ".join(f"TPR on {c} (n={sum(1 for r in bapply if r['condition']==c)})" for c in conds_a) + " |")
+        P("|---" * (2 + len(conds_a)) + "|")
+        def report_apply(name, pred):
+            tpr = mean([float(pred(r)) for r in btest if r["condition"] in AGREEMENT]) if btest else float("nan")
+            vals = [mean([float(pred(r)) for r in bapply if r["condition"] == c]) for c in conds_a]
+            P(f"| {name} | {tpr:.2f} | " + " | ".join(f"{v:.2f}" for v in vals) + " |")
+        report_apply("Harm alone (H)", lambda r: bool(r.get("H_b")))
+        for k in factors:
+            if k != "H":
+                report_apply(f"{k} alone", lambda r, k=k: bool(r.get(k + "_b")))
+        report_apply("Constellation", lambda r: constellation_score(r, lrs, factors) > best_t)
+        P("")
     text = "\n".join(lines)
     print(text)
     if args.out:

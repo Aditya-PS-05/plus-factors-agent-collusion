@@ -12,4 +12,5 @@
 | E6 | 20 | 0 | 0 |  |
 | Aq | 20 | 0 | 0 |  |
 | Adecq | 20 | 19 | 3 | deception, deter, mislead, covert, misdirection |
+| Aaudq | 20 | 14 | 0 | covert, deter, deception, mislead, deterred |
 | Dq | 20 | 0 | 0 |  |

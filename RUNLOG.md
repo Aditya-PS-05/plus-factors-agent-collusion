@@ -19,3 +19,8 @@ Every model call batch, with date, config, seeds, model, cost, and outcome.
 - Gemma 3 27B judge on C6, D6, E6, E (train+test), Aq, Dq, Adecq (train+test): 150 runs x 3 rubrics.
 - Qwen3-235B second judge on the same roots: 150 runs x 3 rubrics.
 - make_results.sh full pass; then report_tables.py re-run after the ordering fix (see CHANGELOG).
+
+## 2026-10-24 ~16:10 to 16:50 IST (Study 4)
+- Aaudq_train (seeds 1-5) and Aaudq_test (seeds 6-20), Qwen3-235B agents, deception prompt + audit notice: 20 runs, 20 completed, 0 failed.
+- Gemma 3 27B judge on both roots: 20 runs x 3 rubrics, complete.
+- Qwen3-235B second judge on Aaudq: failed with HTTP 402 (credit exhausted), nothing written.
